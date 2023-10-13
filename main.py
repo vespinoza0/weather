@@ -9,7 +9,7 @@ import logging
 logging.basicConfig(filename='main.log',format='%(asctime)s:%(levelname)s:%(message)s',
                 datefmt='%m-%d-%Y %I:%M:%S %p', level=logging.INFO)
 
-logging.info("starting data ingestion ")#+ dt.datetime.now())
+logging.info("starting data ingestion ")
 # --------------------- Problem 2 - Ingestion
 # list of files in wx_data directory
 files = os.listdir('./wx_data')
